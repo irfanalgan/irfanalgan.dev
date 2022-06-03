@@ -1,13 +1,71 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.htmlComp {
+    font-family: 'Lucida Handwriting', fantasy;
+    font-size: 0.7rem;
+    color: #FF5A09;
+    padding-top: 5px;
+    font-weight: bold;
 }
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+  @media screen and (max-width: 1024px) {
+  
+    .textZone {
+      font-size: 3.2rem;
+    }
+    .textZoneChild{
+      font-size: 1.1rem;
+      line-height: 1.6rem;
+    }
+    .contactButton{
+      height: 10;
+      width: 50;
+      font-size: 1rem;
+    }
+    
+    .menuTitle {
+      font-size: 0.800rem;
+      line-height: 1.15rem;
+    }
+    .menuImage {
+      width: 1.75rem;
+      height: 1.75rem;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+  
+    .textZone {
+      font-size: 2rem;
+    }
+    .textZoneChild{
+      font-size: 1rem;
+      line-height: 1.5rem;
+    }
+    .contactButton{
+      height: 8;
+      width: 40;
+      font-size: 0.8rem;
+    }
+    .menuTitle {
+      font-size: 0.750rem;
+      line-height: 1.1rem;
+    }
+    
+    
+    .menuImage {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+  
