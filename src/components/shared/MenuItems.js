@@ -15,7 +15,7 @@ function MenuItems(props) {
                 {menus.map((menu,index) => (
                     <li
                         key = {index}
-                        className = {`text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 text-gray-light font-bold rounded-md ${menu.gap ? "mt-8": "mt-1"} `}>
+                        className = {`menu text-gray-300 text-sm flex items-center gap-x-4 cursor-pointer p-2 text-gray-light font-bold rounded-md ${menu.gap ? "mt-8": "mt-1"} `}>
                         <img src = {require(`../../../src/assets/${menu.src}.png`)}
                         className = {`menuImage cursor-pointer duration-500 top-9 w-8 h-8`}
                         alt =""/>

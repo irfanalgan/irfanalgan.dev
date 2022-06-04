@@ -10,6 +10,7 @@ module.exports = {
       'xl': '1280px',
       '2xl': '1536px',
       '5xl': '2560px',
+      '6xl': '3072px',
       '7xl': '4560px',
       '8xl': '4900px',
     },
@@ -33,6 +34,9 @@ module.exports = {
     },
     
     extend: {
+      backgroundSize: {
+        "size-200": "200% 200%",
+      },
       keyframes: {
         wiggle: {
           '0%, 100%': { transform: 'rotate(-3deg)' },
@@ -60,6 +64,7 @@ module.exports = {
         mono: ['ui-monospace', 'SFMono-Regular'],
         poppins: ["Poppins", "sans-serif"],
         adelia: ["ADELIA", "cursive"],
+        lucida: ['Lucida Handwriting', "fantasy"]
       },
     },
   },
