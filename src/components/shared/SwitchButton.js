@@ -9,7 +9,7 @@ function SwitchButton() {
     const open = useOpen()
     
   return (
-    <div className = {`${open ? "ml-40" : "ml-20"}  ${darkMode ? "bg-gray" : "bg-white"} duration-300`}>
+    <div className = {` ${darkMode ? "bg-gray" : "bg-white"} duration-300`}>
         <Switch onChange={() => handleDarkMode() }/>
     </div>
   )

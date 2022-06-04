@@ -11,10 +11,18 @@ function WorkItems() {
     const hoverRef = useRef(null)
     const isHover = useHover(hoverRef)
   return (
-    <div className = {`${open ? "ml-40" : "ml-20"} ${darkMode ? "bg-gray" : "bg-white"} duration-300`}>
+    <div className = {`${darkMode ? "bg-gray" : "bg-white"} duration-300`}>
       
       <p className = "htmlComp noselect">{"<section>"}</p>
       
+      <p className = "htmlComp noselect">{"</section>"}</p>
+    </div>
+  )
+}
+
+export default WorkItems
+
+/*
       <div className="container mx-auto"> 
         
         <section className="pt-8 px-4">
@@ -48,10 +56,4 @@ function WorkItems() {
         </section>
                       
       </div>
-
-      <p className = "htmlComp noselect">{"</section>"}</p>
-    </div>
-  )
-}
-
-export default WorkItems
+      */

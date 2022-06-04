@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+.App {
+  
+}
+
+.left-container {
+  
+  
+}
+.right-container {
+  
+  
+}
+
+
 .htmlComp {
     font-family: 'Lucida Handwriting', fantasy;
     font-size: 0.6rem;

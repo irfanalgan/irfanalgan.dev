@@ -11,7 +11,7 @@ function Work() {
         
   return (
        
-        <div className = {`${open ? "ml-40" : "ml-20"} ${darkMode ? "bg-gray" : "bg-white"} p-7 duration-300`}>
+        <div className = {`${darkMode ? "bg-gray" : "bg-white"} p-7 duration-300`}>
             <p className = "htmlComp noselect">{"<h2>"}</p>
             <h2 className = "pl-10">
             {textList.map((text,index) => (
